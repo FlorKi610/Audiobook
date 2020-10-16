@@ -2,7 +2,7 @@
 import pyttsx3, 
 import PyPDF2,
 
-pdfReader = PyPDF2.PdfFileReader(open('file.pdf', 'rb'))
+pdfReader = PyPDF2.PdfFileReader(open('YourPDF.pdf', 'rb'))
 
 speaker = pyttsx3.init()
 
